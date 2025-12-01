@@ -1,0 +1,32 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f5f7;
+}
+
+TextArea {
+    -fx-control-inner-background: white;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 8;
+}
+
+Button {
+    -fx-background-color: #4285f4;
+    -fx-text-fill: white;
+    -fx-padding: 8px 20px;
+    -fx-background-radius: 6;
+    -fx-font-size: 13px;
+}
+
+Button:hover {
+    -fx-background-color: #2f6ad9;
+}
+
+.menu-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 0 0 1 0;
+}
